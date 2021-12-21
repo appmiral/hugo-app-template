@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+{{- partial "head.html" . -}}
+<style>
+  body {
+    background-color: lightsteelblue;
+  }
+</style>
+<body>
+  <main>
+    <!-- content -->
+    {{ block "main" . }}{{ end }}
+  </main>
+</body>
+</html>
