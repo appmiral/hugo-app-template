@@ -1,6 +1,2 @@
----
-title: "Index"
-date: 2021-12-21T15:36:53+01:00
----
-
-Hi this is from _index.md
+## ToDo: {.fiverrToDo}
+please add a feature that removes the need for this root index file. The app should starts at a configurable section. in this case: 'home'. This should be the base for the whole app too.

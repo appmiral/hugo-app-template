@@ -1,0 +1,25 @@
+{{ $css := resources.Get "css/app.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" />
+
+<style>
+  *[theme="appmiral-light"] {
+    /* the accent color in idle states */
+    --accent-1: 225, 29, 72;
+    /* the accent color in hover states */
+    --accent-1b: 244, 63, 94;
+    /* the accent color in press states */
+    --accent-1c: 50, 90, 230;
+    /* the page background color */
+    --base-1: 248, 250, 252;
+    /* the pane and nav-bar background color */
+    --base-2: 241, 245, 249;
+  }
+
+  .slider-group {
+      display: grid;
+      grid-template-columns: .35fr 1fr .15fr;
+    }
+    .slider-group output {
+      text-align: right;
+    }
+</style>

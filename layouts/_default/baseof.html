@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
-{{- partial "head.html" . -}}
-<style>
-  body {
-    background-color: lightsteelblue;
-  }
-</style>
+
+<head>
+  {{- partial "head.html" . -}}
+  {{- partial "styles.html" . -}}
+  {{- partial "scripts.html" . -}}
+  {{- partial "appmiral-components.html" . -}}
+</head>
+
 <body>
-  <main>
-    <!-- content -->
+  <appmiral-app theme="appmiral-light">
+    <appmiral-bar slot="top" label="{{site.Title}}" logo="https://tailwindui.com/img/logos/workflow-mark.svg?color=rose&shade=500"></appmiral-bar>
+    
+    <appmiral-pane slot="left">
+      {{ $currentPage := . }}
+      {{ range site.Menus.activity }}
+      <appmiral-tool icon="{{ .Params.icon }}" label="{{ .Name }}" href="{{.URL}}" {{ if $currentPage.IsMenuCurrent "activity" . }}active{{ end }}></appmiral-tool>
+      {{end}}
+
+      <appmiral-tool slot="footer" icon="settings" label="Settings"></appmiral-tool>
+
+    </appmiral-pane>
+
     {{ block "main" . }}{{ end }}
-  </main>
+
+    <!--
+    <appmiral-pane slot="right" style="width: 380px;">
+      if a sidebar is available, this is the place to add its content.
+    </appmiral-pane>
+    -->
+
+  </appmiral-app>
 </body>
+
 </html>
