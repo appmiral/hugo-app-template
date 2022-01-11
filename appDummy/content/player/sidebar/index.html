@@ -1,0 +1,44 @@
+---
+title: "Sidebar"
+headless: true
+---
+
+<appmiral-accordion label="stage" expanded>
+
+  <div class="slider-group">
+    <label for="width">width</label>
+    <input type="range" min="400" max="800" id="width" step="1" x-model.number="width">
+    <output for="width" x-text="width"></output>
+  </div>
+
+  <div class="slider-group">
+    <label for="height">height</label>
+    <input type="range" min="400" max="800" id="height" step="1" x-model.number="height">
+    <output for="height" x-text="height"></output>
+  </div>
+
+  <div class="slider-group">
+    <label for="perspective">perspective</label>
+    <input type="range" min="0" max="800" id="perspective" step="1" x-model.number="perspective">
+    <output for="perspective" x-text="perspective"></output>
+  </div>
+
+  <div class="slider-group">
+    <label for="originX">originX</label>
+    <input type="range" min="0" max="100" id="originX" step="1" x-model.number="originX">
+    <output for="originX" x-text="originX"></output>
+  </div>
+
+  <div class="slider-group">
+    <label for="originY">originY</label>
+    <input type="range" min="0" max="100" id="originY" step="1" x-model.number="originY">
+    <output for="originY" x-text="originY"></output>
+  </div>
+
+  <div class="slider-group">
+    <label for="expand">expand</label>
+    <input type="range" min="1" max="4" id="expand" step=".1" x-model.number="expand">
+    <output for="expand" x-text="expand"></output>
+  </div>
+
+</appmiral-accordion>

@@ -1,6 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Hugo App Template'
+theme = "hugo-app-template"
 
 buildFuture = true
 buildDrafts = true

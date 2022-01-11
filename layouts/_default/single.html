@@ -1,3 +1,9 @@
 {{ define "main" }}
+<code>single</code>
+{{ range .Site.Sections.Children }}
+  <li>
+    <a href="{{.Permalink}}">{{.Title}}</a>
+  </li>
+{{ end }}
 {{ .Content }}
 {{ end }}

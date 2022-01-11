@@ -14,21 +14,24 @@
     
     <appmiral-pane slot="left">
       {{ $currentPage := . }}
-      {{ range site.Menus.activity }}
-      <appmiral-tool icon="{{ .Params.icon }}" label="{{ .Name }}" href="{{.URL}}" {{ if $currentPage.IsMenuCurrent "activity" . }}active{{ end }}></appmiral-tool>
+      {{ range site.Menus.main }}
+      <a href="{{.URL}}" style="text-decoration: none;">
+        <appmiral-tool icon="{{ .Params.icon }}" label="{{ .Name }}" {{ if $currentPage.HasMenuCurrent "activity" . }}active{{ end }}></appmiral-tool>
+      </a>
       {{end}}
 
-      <appmiral-tool slot="footer" icon="settings" label="Settings"></appmiral-tool>
-
+      <a slot="footer" href="/settings" style="text-decoration: none;">
+        <appmiral-tool  icon="settings" label="Settings" ></appmiral-tool>
+      </a>
     </appmiral-pane>
 
     {{ block "main" . }}{{ end }}
 
-    <!--
+    {{ with .GetPage "sidebar" }}
     <appmiral-pane slot="right" style="width: 380px;">
-      if a sidebar is available, this is the place to add its content.
+      {{ .Content }}
     </appmiral-pane>
-    -->
+    {{ end }}
 
   </appmiral-app>
 </body>
