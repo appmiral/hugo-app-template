@@ -6,11 +6,15 @@
   {{- partial "styles.html" . -}}
   <script type="module" src="/appmiral-components/all.js"></script>
   {{- partial "scripts.html" . -}}
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 </head>
 
 <body>
   <appmiral-app theme="appmiral-light">
-    <appmiral-bar slot="top" label="{{site.Title}}" logo="https://tailwindui.com/img/logos/workflow-mark.svg?color=rose&shade=500"></appmiral-bar>
+    <appmiral-bar slot="top" label="{{site.Title}}" logo="/logo.svg"></appmiral-bar>
     
     <appmiral-pane slot="left">
       {{ $currentPage := . -}}
