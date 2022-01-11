@@ -4,8 +4,8 @@
 <head>
   {{- partial "head.html" . -}}
   {{- partial "styles.html" . -}}
+  <script type="module" src="/appmiral-components/all.js"></script>
   {{- partial "scripts.html" . -}}
-  {{- partial "appmiral-components.html" . -}}
 </head>
 
 <body>
@@ -13,12 +13,13 @@
     <appmiral-bar slot="top" label="{{site.Title}}" logo="https://tailwindui.com/img/logos/workflow-mark.svg?color=rose&shade=500"></appmiral-bar>
     
     <appmiral-pane slot="left">
-      {{ $currentPage := . }}
-      {{ range site.Menus.main }}
+      {{ $currentPage := . -}}
+      {{- range site.Menus.main -}}
+      {{- $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
       <a href="{{.URL}}" style="text-decoration: none;">
-        <appmiral-tool icon="{{ .Params.icon }}" label="{{ .Name }}" {{ if $currentPage.HasMenuCurrent "activity" . }}active{{ end }}></appmiral-tool>
+        <appmiral-tool icon="{{ .Params.icon }}" label="{{ .Name }}" {{ if $active -}} active {{- end -}}></appmiral-tool>
       </a>
-      {{end}}
+      {{ end -}}
 
       <a slot="footer" href="/settings" style="text-decoration: none;">
         <appmiral-tool  icon="settings" label="Settings" ></appmiral-tool>
