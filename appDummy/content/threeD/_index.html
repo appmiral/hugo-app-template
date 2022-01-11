@@ -1,40 +1,14 @@
 ---
 title: "3D"
 date: 2022-01-05T05:01:53+01:00
+resources:
+- src: scene.js
+  params:
+    module: true
 ---
 
 <appmiral-card flat="true" flex-direction="column">
   <h1>content/threeD/_index.html</h1>
   <div id="scene"></div>
-  <h2 class="fiverrToDo">ToDo:</h2>
-  <p>move the script from the index.html into a page resource</p>
 </appmiral-card>
-<script type="module" >
-    import * as THREE from 'https://cdn.skypack.dev/three@v0.136.0';
-
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(75, 400 / 300, 0.1, 1000);
-
-    const renderer = new THREE.WebGLRenderer();
-    renderer.setSize(400, 300);
-    document.getElementById("scene").appendChild(renderer.domElement);
-
-    const geometry = new THREE.BoxGeometry();
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-    const cube = new THREE.Mesh(geometry, material);
-    scene.add(cube);
-
-    camera.position.z = 5;
-
-    function animate() {
-      requestAnimationFrame(animate);
-
-      cube.rotation.x += 0.01;
-      cube.rotation.y += 0.01;
-
-      renderer.render(scene, camera);
-    };
-
-    animate();
-</script>
 
