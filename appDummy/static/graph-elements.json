@@ -1,0 +1,2437 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "Body-Mapper",
+        "type": "system"
+      },
+      "position": {
+        "x": 1099.640911292819,
+        "y": -22.879657969039382
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "ABW-Mapper",
+        "type": "system"
+      },
+      "position": {
+        "x": 434.19444444444434,
+        "y": -28.611111111111086
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "Frontalebene",
+        "type": "layer"
+      },
+      "position": {
+        "x": 23.689132877185887,
+        "y": 1453.1197411075523
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "Sagitalebene",
+        "type": "layer"
+      },
+      "position": {
+        "x": 492.5286244548372,
+        "y": 1434.041661465252
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "Transversalebene",
+        "type": "layer"
+      },
+      "position": {
+        "x": 983.6258756151722,
+        "y": 1446.7603812267853
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "BNEU",
+        "type": "test"
+      },
+      "position": {
+        "x": 1194.0347222222222,
+        "y": 171.66666666666669
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "BCST",
+        "type": "test"
+      },
+      "position": {
+        "x": 917.7291666666665,
+        "y": 171.66666666666669
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "BINT",
+        "type": "test"
+      },
+      "position": {
+        "x": 1055.8819444444443,
+        "y": 171.66666666666669
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "BSEQ",
+        "type": "test"
+      },
+      "position": {
+        "x": 1332.1875,
+        "y": 171.66666666666669
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TNEU",
+        "type": "test"
+      },
+      "position": {
+        "x": 503.2708333333333,
+        "y": 171.66666666666669
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "MATT",
+        "type": "test"
+      },
+      "position": {
+        "x": 226.96527777777771,
+        "y": 171.66666666666669
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TSBY",
+        "type": "test"
+      },
+      "position": {
+        "x": 641.4236111111111,
+        "y": 171.66666666666669
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TINT",
+        "type": "test"
+      },
+      "position": {
+        "x": 365.11805555555554,
+        "y": 171.66666666666669
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TSEQ",
+        "type": "test"
+      },
+      "position": {
+        "x": 779.5763888888887,
+        "y": 171.66666666666669
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "KSTA",
+        "type": "test"
+      },
+      "position": {
+        "x": 88.81249999999989,
+        "y": 171.66666666666669
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TorsoBackA",
+        "type": "optionP"
+      },
+      "position": {
+        "x": 641.4236111111111,
+        "y": 371.94444444444446
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TorsoBackB",
+        "type": "optionP"
+      },
+      "position": {
+        "x": 1308.9008436130605,
+        "y": 390.5716671561775
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "LegsBack",
+        "type": "optionP"
+      },
+      "position": {
+        "x": 1011.7002411427927,
+        "y": 377.67589758651616
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "LegsFront",
+        "type": "optionP"
+      },
+      "position": {
+        "x": 3.9455723260848488,
+        "y": 382.0525591556774
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TorsoBack0",
+        "type": "optionS"
+      },
+      "position": {
+        "x": 434.19444444444434,
+        "y": 572.2222222222222
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TorsoBack2",
+        "type": "optionS"
+      },
+      "position": {
+        "x": 572.3472222222222,
+        "y": 572.2222222222222
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TorsoBack4A",
+        "type": "optionS"
+      },
+      "position": {
+        "x": 710.4999999999999,
+        "y": 572.2222222222222
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TorsoBack4D",
+        "type": "optionS"
+      },
+      "position": {
+        "x": 1263.111111111111,
+        "y": 572.2222222222222
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TorsoBack6",
+        "type": "optionS"
+      },
+      "position": {
+        "x": 1401.2638888888887,
+        "y": 572.2222222222222
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "LegsBack2",
+        "type": "optionS"
+      },
+      "position": {
+        "x": 848.6527777777777,
+        "y": 572.2222222222222
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "LegsBack4",
+        "type": "optionS"
+      },
+      "position": {
+        "x": 986.8055555555555,
+        "y": 572.2222222222222
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "LegsBack6",
+        "type": "optionS"
+      },
+      "position": {
+        "x": 1124.958333333333,
+        "y": 572.2222222222222
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "LegsFront2",
+        "type": "optionS"
+      },
+      "position": {
+        "x": -215.2534677138289,
+        "y": 576.5208120787759
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "LegsFront4",
+        "type": "optionS"
+      },
+      "position": {
+        "x": -88.56359622019454,
+        "y": 577.9536753642939
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "LegsFront6",
+        "type": "optionS"
+      },
+      "position": {
+        "x": 22.364779132742676,
+        "y": 579.3865386498119
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "VP",
+        "type": "marker"
+      },
+      "position": {
+        "x": 434.19444444444434,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "AISL",
+        "type": "marker"
+      },
+      "position": {
+        "x": 572.3472222222222,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "AISR",
+        "type": "marker"
+      },
+      "position": {
+        "x": 710.4999999999999,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "DL",
+        "type": "marker"
+      },
+      "position": {
+        "x": 1539.4166666666663,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "DR",
+        "type": "marker"
+      },
+      "position": {
+        "x": 1815.7222222222222,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "SP",
+        "type": "marker"
+      },
+      "position": {
+        "x": 296.04166666666663,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "SSL",
+        "type": "marker"
+      },
+      "position": {
+        "x": 1263.111111111111,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "SSR",
+        "type": "marker"
+      },
+      "position": {
+        "x": 1401.2638888888887,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "FPL",
+        "type": "marker"
+      },
+      "position": {
+        "x": 986.8055555555555,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "FPR",
+        "type": "marker"
+      },
+      "position": {
+        "x": 1124.958333333333,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "HL",
+        "type": "marker"
+      },
+      "position": {
+        "x": -118.41666666666663,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "HR",
+        "type": "marker"
+      },
+      "position": {
+        "x": 157.8888888888888,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "PL",
+        "type": "marker"
+      },
+      "position": {
+        "x": -394.7222222222223,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "PR",
+        "type": "marker"
+      },
+      "position": {
+        "x": -256.56944444444446,
+        "y": 972.7777777777778
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "DM",
+        "type": "cmarker"
+      },
+      "position": {
+        "x": 1681.868034300998,
+        "y": 1000.0021802026184
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "SM",
+        "type": "cmarker"
+      },
+      "position": {
+        "x": 643.7533279487143,
+        "y": 1001.4350434881364
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "HM",
+        "type": "cmarker"
+      },
+      "position": {
+        "x": 5.407478255931708,
+        "y": 1001.4350434881363
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "Dimple",
+        "type": "group"
+      },
+      "position": {
+        "x": 1470.2783851431534,
+        "y": 765.3356835724104
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "Schulterblätter",
+        "type": "group"
+      },
+      "position": {
+        "x": 710.4999999999999,
+        "y": 772.5
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "Wirbelsäule",
+        "type": "group"
+      },
+      "position": {
+        "x": 572.3472222222222,
+        "y": 772.5
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "Oberschenkel",
+        "type": "group"
+      },
+      "position": {
+        "x": 986.8055555555555,
+        "y": 772.5
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "Fersen",
+        "type": "group"
+      },
+      "position": {
+        "x": 434.19444444444434,
+        "y": 772.5
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "Patella",
+        "type": "group"
+      },
+      "position": {
+        "x": -182.0845646272954,
+        "y": 765.905155430428
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "Kniekehle",
+        "type": "group"
+      },
+      "position": {
+        "x": 848.6527777777777,
+        "y": 772.5
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TrunkLengthS",
+        "type": "feature"
+      },
+      "position": {
+        "x": 341.95518443786443,
+        "y": 1173.0555555555557
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "TrunkLengthD",
+        "type": "feature"
+      },
+      "position": {
+        "x": 917.7291666666665,
+        "y": 1173.0555555555557
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "ScapulaePosition",
+        "type": "feature"
+      },
+      "position": {
+        "x": 633.4243337660603,
+        "y": 1167.3241024134838
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    },
+    {
+      "data": {
+        "id": "HightDeviationPatellaApex",
+        "type": "feature"
+      },
+      "position": {
+        "x": -335.9231381446895,
+        "y": 1163.1632887011979
+      },
+      "group": "nodes",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": false,
+      "classes": ""
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "source": "Body-Mapper",
+        "target": "BNEU",
+        "id": "2b21037e-8dab-4f4d-ac96-80f6dd41ec6a"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Body-Mapper",
+        "target": "BCST",
+        "id": "98882a7f-d45a-46f2-aae8-3ac44c0d1cdb"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Body-Mapper",
+        "target": "BINT",
+        "id": "647a3126-b9d2-4e65-9665-dd9beeec3bec"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Body-Mapper",
+        "target": "BSEQ",
+        "id": "f0fc3c80-9467-46fa-b452-54ceaea24aea"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "ABW-Mapper",
+        "target": "TNEU",
+        "id": "b5b2afd2-104d-421b-9771-adbca8b66360"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "ABW-Mapper",
+        "target": "MATT",
+        "id": "42b805d6-bd63-4179-a15e-7e5e05e5d6ea"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "ABW-Mapper",
+        "target": "TSBY",
+        "id": "be7d2568-ddc7-4ccf-bc12-28b2146acb5b"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "ABW-Mapper",
+        "target": "TINT",
+        "id": "a3dd0231-f60f-4955-95f5-e070553153bb"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "ABW-Mapper",
+        "target": "TSEQ",
+        "id": "a4266e85-c84d-492b-a78c-d6e48cc7a3a0"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "ABW-Mapper",
+        "target": "KSTA",
+        "id": "6f47e0fe-05f9-4fed-9918-383c29727bdb"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Dimple",
+        "target": "DL",
+        "id": "8eba0822-2228-4007-809c-9bfa9ebfc903"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Dimple",
+        "target": "DR",
+        "id": "2973cc15-3b96-4559-9356-8a7eec91bbe9"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Schulterblätter",
+        "target": "AISL",
+        "id": "bee38df6-b99e-4ed2-84ad-8e26002de511"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Schulterblätter",
+        "target": "AISR",
+        "id": "5c9c7b28-1707-4243-97d8-4e2b0206e4d0"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Wirbelsäule",
+        "target": "VP",
+        "id": "204619ff-bc27-4ce2-b0ab-98f841a435f1"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Wirbelsäule",
+        "target": "SP",
+        "id": "8a587907-44e3-4f8b-b310-110b8800bed7"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Oberschenkel",
+        "target": "SSL",
+        "id": "3e806ee7-fb4f-4683-9534-e3800eaddcf6"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Oberschenkel",
+        "target": "SSR",
+        "id": "30f0d2aa-57f5-436e-8703-c4172056388c"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Fersen",
+        "target": "HL",
+        "id": "45991268-3c73-4e9b-86ca-ef13af697b92"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Fersen",
+        "target": "HR",
+        "id": "da5d5a73-9c68-43c1-a3d5-0863549cbce7"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Patella",
+        "target": "PL",
+        "id": "e3dcded5-eab9-4061-b318-197531b3479d"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Patella",
+        "target": "PR",
+        "id": "2a44c34a-5827-4f3b-a47d-66819b5e686b"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Kniekehle",
+        "target": "FPL",
+        "id": "ffae55b7-f99b-44fe-ab77-c48cbd072cc5"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Kniekehle",
+        "target": "FPR",
+        "id": "f42dfb06-02b2-47c7-aca6-0c4666244c69"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "BNEU",
+        "target": "TorsoBackB",
+        "id": "57c41b35-57a7-443f-a42a-eeb5e8205778"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "BNEU",
+        "target": "LegsBack",
+        "id": "95bca9fd-3866-4227-9b19-889b40093d4f"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBackA",
+        "target": "TorsoBack0",
+        "id": "ca1a7f17-d51d-4035-863f-767540a10a6c"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBackA",
+        "target": "TorsoBack2",
+        "id": "cc0f0af0-9b19-4884-9d24-a4b6b8ac66a5"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBackA",
+        "target": "TorsoBack4A",
+        "id": "c31babea-1694-4dc8-a1ff-9ec63fb05bed"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBackA",
+        "target": "TorsoBack4D",
+        "id": "a2511624-bd76-4146-ad96-9d16690010ba"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBackA",
+        "target": "TorsoBack6",
+        "id": "acc490aa-08e9-4a46-8843-e349fd9d80f8"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBackB",
+        "target": "TorsoBack4D",
+        "id": "437daddb-e201-4be4-90b0-ceb96dc2251c"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBackB",
+        "target": "TorsoBack6",
+        "id": "f625e3af-5611-4a91-b063-513e540160ca"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsBack",
+        "target": "LegsBack2",
+        "id": "4b11d4c4-fe56-4281-9ab9-68e4689d241c"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsBack",
+        "target": "LegsBack4",
+        "id": "bced124f-fe3b-4a8d-b527-b5acb54a8279"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsBack",
+        "target": "LegsBack6",
+        "id": "20bf5bc2-aceb-40a6-aa2f-92d0661d663e"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsBack2",
+        "target": "Fersen",
+        "id": "250c0de2-d8cd-447e-8506-e73bd75f2085"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsBack4",
+        "target": "Fersen",
+        "id": "71ecf743-959c-4b3d-ad5b-f666c7b2d9d3"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsBack4",
+        "target": "Kniekehle",
+        "id": "a0bef427-9bc0-4853-ab06-2b9745ba2f7a"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsBack6",
+        "target": "Fersen",
+        "id": "656e2d3f-885d-4f25-83f7-b3adba7313c5"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsBack6",
+        "target": "Kniekehle",
+        "id": "e0efbb26-92dd-4fac-af8b-5871a71c6e2e"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsBack6",
+        "target": "Oberschenkel",
+        "id": "49688cbb-ba76-4186-8184-87a43233482d"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBack2",
+        "target": "Wirbelsäule",
+        "id": "ecdc77a7-60d0-4c7f-b1e1-5f55ba4bbe46"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBack4D",
+        "target": "Wirbelsäule",
+        "id": "e6940d5d-f216-41aa-af84-18d98193f442"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBack4D",
+        "target": "Dimple",
+        "id": "781be526-22e5-452b-9e2d-c0e48f10b563"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBack4A",
+        "target": "Wirbelsäule",
+        "id": "a432c364-7a96-4579-8341-cd0db92a9eed"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBack4A",
+        "target": "Schulterblätter",
+        "id": "89362caf-cea5-4c37-b3b5-eabc11809d19"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBack6",
+        "target": "Wirbelsäule",
+        "id": "9a6f7cf3-d5c6-468e-8095-bff5165240ef"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBack6",
+        "target": "Schulterblätter",
+        "id": "384ded43-3527-476a-8e9a-c91c17993105"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TorsoBack6",
+        "target": "Dimple",
+        "id": "5dede3a5-13cc-41af-b66a-5564823a216e"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsFront",
+        "target": "LegsFront2",
+        "id": "69960bbb-bcdc-4eec-ab25-6ea56e7418a6"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsFront",
+        "target": "LegsFront4",
+        "id": "b0531ff2-dd11-42da-a1df-d2420e058fb1"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsFront",
+        "target": "LegsFront6",
+        "id": "aae27a4a-c3ef-434e-93b1-a5005385901f"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "LegsFront4",
+        "target": "Patella",
+        "id": "d35d511b-a5b3-4465-93e4-dfd59ae3bda7"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "TNEU",
+        "target": "TorsoBackA",
+        "id": "f3bc26a3-9053-4520-9e7f-61b3e92d41e3"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "KSTA",
+        "target": "LegsFront",
+        "id": "66d9310a-b4f5-4b97-9525-6e5cbc7637dd"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "AISL",
+        "target": "SM",
+        "id": "00f20579-0522-4b31-b782-735c22948ec8"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "AISR",
+        "target": "SM",
+        "id": "bafe8e6d-e597-4b12-874e-87f64c8b2ae0"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Schulterblätter",
+        "target": "SM",
+        "id": "9e38cc00-d63a-4b45-8513-bac0368be79d"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "DL",
+        "target": "DM",
+        "id": "1ccecd74-0e97-4aa0-b2c7-d7ab78107474"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "DR",
+        "target": "DM",
+        "id": "9fc4ee3c-9144-4125-ba4e-9eaf417a9298"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Dimple",
+        "target": "DM",
+        "id": "cac9d4ab-3d5d-42e8-ad55-f5fa88b8c03e"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "HL",
+        "target": "HM",
+        "id": "1fafedcd-f653-4e14-9011-b270d65218cd"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "HR",
+        "target": "HM",
+        "id": "5e65343e-92e0-40c6-934d-a5745bbe9d47"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "Fersen",
+        "target": "HM",
+        "id": "0ebde182-6db4-4acb-a5c2-fb5a5ba49b8d"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "VP",
+        "target": "TrunkLengthS",
+        "id": "4435aa8a-b067-42d2-a240-45cf7a26b19d"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "SP",
+        "target": "TrunkLengthS",
+        "id": "51504a7b-0b38-472e-90b7-85179cc4ebef"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "VP",
+        "target": "TrunkLengthD",
+        "id": "7359e154-ea1e-4e86-b397-142bf26cac64"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "DM",
+        "target": "TrunkLengthD",
+        "id": "1c808499-2fb7-474e-b765-9421abb9f931"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "AISL",
+        "target": "ScapulaePosition",
+        "id": "ec384c9f-d5f6-4480-b978-a052698862d2"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "AISR",
+        "target": "ScapulaePosition",
+        "id": "3b578f6e-acd0-4a61-a80f-9688c555ada9"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "PL",
+        "target": "HightDeviationPatellaApex",
+        "id": "46d8c76b-e3d5-4ac4-a3ce-b348ff454854"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    },
+    {
+      "data": {
+        "source": "PR",
+        "target": "HightDeviationPatellaApex",
+        "id": "c8d37174-d2ed-4c4f-8def-39e35765024b"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "group": "edges",
+      "removed": false,
+      "selected": false,
+      "selectable": true,
+      "locked": false,
+      "grabbable": true,
+      "pannable": true,
+      "classes": ""
+    }
+  ]
+}

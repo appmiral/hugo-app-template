@@ -1,0 +1,1 @@
+console.log('Hello from sidebar jsFile1.js');

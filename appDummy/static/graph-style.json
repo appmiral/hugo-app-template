@@ -1,0 +1,92 @@
+[
+  {
+    "selector": "node",
+    "style": {
+      "background-color": "#666",
+      "label": "data(id)",
+      "shape": "ellipse"
+    }
+  },
+  {
+    "selector": "node[type=\"system\"]",
+    "style": {
+      "label": "data(id)",
+      "shape": "round-heptagon",
+      "background-color": "#c75478"
+    }
+  },
+  {
+    "selector": "node[type=\"layer\"]",
+    "style": {
+      "label": "data(id)",
+      "shape": "rectangle",
+      "background-color": "#bdb182"
+    }
+  },
+  {
+    "selector": "node[type=\"test\"]",
+    "style": {
+      "background-color": "#666",
+      "label": "data(id)",
+      "shape": "diamond"
+    }
+  },
+  {
+    "selector": "node[type=\"marker\"]",
+    "style": {
+      "background-color": "#FFF",
+      "label": "data(id)",
+      "shape": "ellipse"
+    }
+  },
+  {
+    "selector": "node[type=\"cmarker\"]",
+    "style": {
+      "background-color": "#a9a9ec",
+      "label": "data(id)",
+      "shape": "ellipse"
+    }
+  },
+  {
+    "selector": "node[type=\"group\"]",
+    "style": {
+      "background-color": "#CCC",
+      "label": "data(id)",
+      "shape": "round-heptagon"
+    }
+  },
+  {
+    "selector": "node[type=\"optionP\"]",
+    "style": {
+      "background-color": "#439965",
+      "label": "data(id)",
+      "shape": "triangle"
+    }
+  },
+  {
+    "selector": "node[type=\"optionS\"]",
+    "style": {
+      "background-color": "#82bd99",
+      "label": "data(id)",
+      "shape": "triangle"
+    }
+  },
+  {
+    "selector": "node[type=\"feature\"]",
+    "style": {
+      "background-color": "#b874bb",
+      "label": "data(id)",
+      "shape": "star"
+    }
+  },
+  {
+    "selector": "edge",
+    "style": {
+      "width": 1,
+      "line-color": "#000",
+      "target-arrow-color": "#000",
+      "target-arrow-shape": "triangle",
+      "curve-style": "bezier"
+    }
+  }
+]

@@ -1,0 +1,75 @@
+---
+title: "Graph Editor"
+date: 2021-10-28
+draft: false
+---
+<appmiral-card flat flex-direction="column">
+  <div id='abw3DScene' style='height:100%; width: 100%;'></div>
+</appmiral-card>
+<script type='module'>
+  import cytoscape from 'https://cdn.jsdelivr.net/npm/cytoscape@3.20.0/dist/cytoscape.esm.min.js';
+
+  let cy_config = {
+    container: document.getElementById('abw3DScene'),
+    layout: {
+      name: 'preset', //'breadthfirst', // breadthfirst
+      fit: true, // whether to fit the viewport to the graph
+      padding: 30,
+      minNodeSpacing: 50,
+      directed: true,
+      grid: true,
+      circle: false,
+      // maximal: true,
+      //rows: 10,
+      concentric: function( node ){
+        const levels = ['feature', 'cmarker', 'marker', 'group', 'optionS', 'optionP', 'test', 'system'];
+        console.log( levels.indexOf( node.data().type ) );
+        return levels.indexOf( node.data().type );
+      },
+      position: function( node ){
+        const levels = ['system', 'test', 'optionS', 'optionP', 'group', 'marker', 'cmarker', 'feature'];
+        //console.log( levels.indexOf( node.data().type ) );
+        return { row: levels.indexOf( node.data().type )};
+      },
+      levelWidth: function( node ){
+        return 1;
+      },
+      equidistant: false,
+      avoidOverlap: true,
+    }
+  };
+
+  await Promise.all([
+    fetch("/graph-elements.json"),
+    fetch("/graph-style.json"),
+  ]).then( async ([elements, style]) => {
+    cy_config.elements = await elements.json();
+    cy_config.style = await style.json();
+  }).catch((err) => {
+    console.log('fetch error:', err);
+  });
+
+  const cy = cytoscape(cy_config);
+  cy.fit(100);
+
+  cy.on('tap', (evt)=>{
+
+    // tap on background
+    if(evt.target === cy){
+      return; 
+    }
+
+    if(evt.target.isNode()){
+      console.log('isNode');
+    }
+
+    // node.isNode() || node.isEdge()
+
+    const node = evt.target;
+
+    // console.log( node.parents() );
+    //console.log( cy.nodes('[type = "feature"]') );
+    
+
+  });
+</script>
