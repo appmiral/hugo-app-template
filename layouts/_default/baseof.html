@@ -31,8 +31,19 @@
       </a>
     </appmiral-pane>
 
+    <ul slot="bottom" style="list-style: none;">
+      <li style="display: inline;"><a href="">Index</a></li>
+      <li style="display: inline;"><a href="">Page 1</a></li>
+      <li style="display: inline;"><a href="">Page 2</a></li>
+      <li style="display: inline;"><a href="">Page 3</a></li>
+      <li style="display: inline;"><a href="">Page 4</a></li>
+    </ul>
+
     {{ block "main" . }}{{ end }}
 
+
+
+  
     {{ with .GetPage "sidebar" }}
     <appmiral-pane slot="right" style="width: 380px;">
       {{ .Content }}
