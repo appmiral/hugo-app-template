@@ -26,3 +26,10 @@ pageref = "/threeD/"
 weight = 3
 [main.params]
   icon = "3d_rotation"
+
+[[main]]
+name = "Graph"
+pageref = "/graph/"
+weight = 4
+[main.params]
+  icon = "account_tree"
