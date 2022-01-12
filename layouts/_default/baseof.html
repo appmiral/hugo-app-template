@@ -4,21 +4,27 @@
 <head>
   {{- partial "head.html" . -}}
   {{- partial "styles.html" . -}}
+  <script type="module" src="/appmiral-components/all.js"></script>
+  {{- partial "alpine.html" . -}}
   {{- partial "scripts.html" . -}}
-  {{- partial "appmiral-components.html" . -}}
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 </head>
 
 <body>
   <appmiral-app theme="appmiral-light">
-    <appmiral-bar slot="top" label="{{site.Title}}" logo="https://tailwindui.com/img/logos/workflow-mark.svg?color=rose&shade=500"></appmiral-bar>
+    <appmiral-bar slot="top" label="{{site.Title}}" logo="/logo.svg"></appmiral-bar>
     
     <appmiral-pane slot="left">
-      {{ $currentPage := . }}
-      {{ range site.Menus.main }}
+      {{ $currentPage := . -}}
+      {{- range site.Menus.main -}}
+      {{- $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
       <a href="{{.URL}}" style="text-decoration: none;">
-        <appmiral-tool icon="{{ .Params.icon }}" label="{{ .Name }}" {{ if $currentPage.HasMenuCurrent "activity" . }}active{{ end }}></appmiral-tool>
+        <appmiral-tool icon="{{ .Params.icon }}" label="{{ .Name }}" {{ if $active -}} active {{- end -}}></appmiral-tool>
       </a>
-      {{end}}
+      {{ end -}}
 
       <a slot="footer" href="/settings" style="text-decoration: none;">
         <appmiral-tool  icon="settings" label="Settings" ></appmiral-tool>

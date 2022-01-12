@@ -1,32 +1,16 @@
 ---
 title: "Home"
 date: 2021-12-21T15:36:53+01:00
-menu:
-  activity:
-    name: Home
-    Identifier: home
-    weight: 10
-    params:
-      icon: "home"
 resources:
 - src: home.js
+  params:
+    module: true
 ---
 <appmiral-card flat="true" flex-direction="column">
   <h1>content/home/index.md</h1>
 
   <h3>Project Purpose</h3>
   <p>This is intended as a template for desktop like progressive web apps. But currently is is more of an evaluation, if and how hugo can be used for this purpose.</p>
-
-  <h2 class="fiverrToDo">ToDo:</h2>
-  <h3>Page resources:</h3>
-  <p>this is the main struggling point. Each page should be able to add js, css, ... as needed. Some pages will require in addition external libraries (from CDN) like:
-  </p>
-  <ul>
-    <li>Firebase</li>
-    <li>Threejs</li>
-  </ul>
-  <p>importatnt with js scripts is, that some need to be of type="module" and some might need to be defered </p>
-  
 
 
 

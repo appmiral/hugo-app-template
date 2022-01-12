@@ -1,14 +1,14 @@
 # main menu
 [[main]]
 name = "Home"
-url = "/home/"
+pageref = "/home/"
 weight = 1
 [main.params]
   icon = "home"
 
 [[main]]
 name = "Player"
-url = "/player/"
+pageref = "/player/"
 weight = 2
 hasChildren = true
 [main.params]
@@ -17,12 +17,12 @@ hasChildren = true
   [[main]]
   parent = "Player"
   name = "Editor"
-  url = "/editor/"
+  pageref = "/editor/"
   weight = 1
 
 [[main]]
 name = "Three"
-url = "/threeD/"
+pageref = "/threeD/"
 weight = 3
 [main.params]
   icon = "3d_rotation"
